@@ -42,6 +42,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'delete any email content',
     'roles' => array(
       'Email Editor' => 'Email Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
@@ -60,6 +61,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'delete own email content',
     'roles' => array(
       'Email Editor' => 'Email Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
@@ -78,6 +80,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'edit any email content',
     'roles' => array(
       'Email Editor' => 'Email Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
@@ -96,6 +99,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'edit own email content',
     'roles' => array(
       'Email Editor' => 'Email Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
