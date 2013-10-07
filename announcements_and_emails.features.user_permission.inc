@@ -15,6 +15,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'create announcement content',
     'roles' => array(
       'Announcements Editor' => 'Announcements Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
@@ -24,6 +25,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'create email content',
     'roles' => array(
       'Email Editor' => 'Email Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
@@ -33,6 +35,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'delete any announcement content',
     'roles' => array(
       'Announcements Editor' => 'Announcements Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
@@ -52,6 +55,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'delete own announcement content',
     'roles' => array(
       'Announcements Editor' => 'Announcements Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
@@ -71,6 +75,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'edit any announcement content',
     'roles' => array(
       'Announcements Editor' => 'Announcements Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
@@ -90,6 +95,7 @@ function announcements_and_emails_user_default_permissions() {
     'name' => 'edit own announcement content',
     'roles' => array(
       'Announcements Editor' => 'Announcements Editor',
+	  'administrator' => 'administrator',
     ),
     'module' => 'node',
   );
