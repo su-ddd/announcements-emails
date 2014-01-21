@@ -13,13 +13,13 @@ function announcements_and_emails_user_default_roles() {
   // Exported role: Announcements Editor.
   $roles['Announcements Editor'] = array(
     'name' => 'Announcements Editor',
-    'weight' => 99,
+    'weight' => 101,
   );
 
   // Exported role: Email Editor.
   $roles['Email Editor'] = array(
     'name' => 'Email Editor',
-    'weight' => 116,
+    'weight' => 118,
   );
 
   return $roles;
