@@ -71,7 +71,8 @@ function announcements_and_emails_default_fe_block_settings() {
     'module' => 'views',
     'node_types' => array(),
     'pages' => 'announcement/*
-announcements',
+announcements
+announcements/*',
     'roles' => array(),
     'themes' => array(
       'itservices_seven' => array(
